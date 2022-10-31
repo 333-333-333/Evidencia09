@@ -18,4 +18,8 @@ public enum Cara {
 		return this.Valor;
 	}
 
+	public String getRepresentacion() {
+		return this.Representacion;
+	}
+
 }

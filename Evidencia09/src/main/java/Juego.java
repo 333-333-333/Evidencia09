@@ -15,6 +15,10 @@ public class Juego {
 		Cara cara1 = dado1.tirar();
 		Cara cara2 = dado2.tirar();
 
+		System.out.println("Caras obtenidas : "
+			+ "\n" + cara1.getRepresentacion()
+			+ "\n" + cara2.getRepresentacion());
+
 		int sumaCaras = sumarCaras(cara1, cara2);
 
 		if (gano (sumaCaras)) {
